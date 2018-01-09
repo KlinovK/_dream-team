@@ -56,15 +56,55 @@
 		A93EB3DC2004EDE70093CEB0 /* _dream team */ = {
 			isa = PBXGroup;
 			children = (
+				A93EB3F52004F2990093CEB0 /* Services */,
+				A93EB3F42004F2720093CEB0 /* Extensions */,
+				A93EB3F32004F25B0093CEB0 /* Model */,
+				A93EB3F22004F2540093CEB0 /* View */,
+				A93EB3F12004F2330093CEB0 /* Controller */,
 				A93EB3DD2004EDE70093CEB0 /* AppDelegate.swift */,
-				A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */,
-				A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */,
 				A93EB3E32004EDE70093CEB0 /* Main.storyboard */,
 				A93EB3E62004EDE70093CEB0 /* Assets.xcassets */,
 				A93EB3E82004EDE70093CEB0 /* LaunchScreen.storyboard */,
 				A93EB3EB2004EDE70093CEB0 /* Info.plist */,
 			);
 			path = "_dream team";
+			sourceTree = "<group>";
+		};
+		A93EB3F12004F2330093CEB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */,
+				A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A93EB3F22004F2540093CEB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A93EB3F32004F25B0093CEB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A93EB3F42004F2720093CEB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A93EB3F52004F2990093CEB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

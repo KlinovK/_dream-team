@@ -1,0 +1,6 @@
+framework module Pods__dream_team {
+  umbrella header "Pods-_dream team-umbrella.h"
+
+  export *
+  module * { export * }
+}

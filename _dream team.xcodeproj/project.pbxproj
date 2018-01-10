@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D4B5168AA4A6C2721F34F8B /* Pods__dream_team.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2C1BA15B79C8F45386551E /* Pods__dream_team.framework */; };
+		A93B2D042006506E0036EC17 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B2D032006506E0036EC17 /* DataService.swift */; };
 		A93EB3DE2004EDE70093CEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3DD2004EDE70093CEB0 /* AppDelegate.swift */; };
 		A93EB3E02004EDE70093CEB0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */; };
 		A93EB3E22004EDE70093CEB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */; };
@@ -21,6 +22,7 @@
 		1C4C95AAB0D99577201F8446 /* Pods-_dream team.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_dream team.release.xcconfig"; path = "Pods/Target Support Files/Pods-_dream team/Pods-_dream team.release.xcconfig"; sourceTree = "<group>"; };
 		6368A311F59D11F5414143FD /* Pods-_dream team.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_dream team.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_dream team/Pods-_dream team.debug.xcconfig"; sourceTree = "<group>"; };
 		6F2C1BA15B79C8F45386551E /* Pods__dream_team.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__dream_team.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B2D032006506E0036EC17 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A93EB3DA2004EDE70093CEB0 /* _dream team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_dream team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93EB3DD2004EDE70093CEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		A93EB3F52004F2990093CEB0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A93B2D032006506E0036EC17 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				A93EB3E22004EDE70093CEB0 /* SecondViewController.swift in Sources */,
 				A93EB3DE2004EDE70093CEB0 /* AppDelegate.swift in Sources */,
 				A93EB3E02004EDE70093CEB0 /* FirstViewController.swift in Sources */,
+				A93B2D042006506E0036EC17 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

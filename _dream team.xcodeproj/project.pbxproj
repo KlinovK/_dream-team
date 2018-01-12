@@ -11,8 +11,8 @@
 		A93B2D042006506E0036EC17 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B2D032006506E0036EC17 /* DataService.swift */; };
 		A93B2D07200675B10036EC17 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B2D06200675B10036EC17 /* Colors.swift */; };
 		A93EB3DE2004EDE70093CEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3DD2004EDE70093CEB0 /* AppDelegate.swift */; };
-		A93EB3E02004EDE70093CEB0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */; };
-		A93EB3E22004EDE70093CEB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */; };
+		A93EB3E02004EDE70093CEB0 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3DF2004EDE70093CEB0 /* SearchVC.swift */; };
+		A93EB3E22004EDE70093CEB0 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EB3E12004EDE70093CEB0 /* GroupsVC.swift */; };
 		A93EB3E52004EDE70093CEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3E32004EDE70093CEB0 /* Main.storyboard */; };
 		A93EB3E72004EDE70093CEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3E62004EDE70093CEB0 /* Assets.xcassets */; };
 		A93EB3EA2004EDE70093CEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3E82004EDE70093CEB0 /* LaunchScreen.storyboard */; };
@@ -32,8 +32,8 @@
 		A93B2D06200675B10036EC17 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A93EB3DA2004EDE70093CEB0 /* _dream team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_dream team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93EB3DD2004EDE70093CEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A93EB3DF2004EDE70093CEB0 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A93EB3E12004EDE70093CEB0 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		A93EB3E42004EDE70093CEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A93EB3E62004EDE70093CEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93EB3E92004EDE70093CEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		A93EB3F12004F2330093CEB0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */,
-				A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */,
+				A93EB3E12004EDE70093CEB0 /* GroupsVC.swift */,
+				A93EB3DF2004EDE70093CEB0 /* SearchVC.swift */,
 				A9F6F1DC2008CD6500BE4ADB /* AuthVC.swift */,
 				A9F6F1DE2008CDE000BE4ADB /* LoginVC.swift */,
 			);
@@ -301,13 +301,13 @@
 			files = (
 				A9F6F1E32008D2FC00BE4ADB /* ShadowView.swift in Sources */,
 				A9F6F1DD2008CD6500BE4ADB /* AuthVC.swift in Sources */,
-				A93EB3E22004EDE70093CEB0 /* SecondViewController.swift in Sources */,
+				A93EB3E22004EDE70093CEB0 /* GroupsVC.swift in Sources */,
 				A9F6F1DF2008CDE000BE4ADB /* LoginVC.swift in Sources */,
 				A9F6F1E12008CF1E00BE4ADB /* InsetTextField.swift in Sources */,
 				A93B2D07200675B10036EC17 /* Colors.swift in Sources */,
 				A93EB3DE2004EDE70093CEB0 /* AppDelegate.swift in Sources */,
 				A9F6F1E52008F2AD00BE4ADB /* AuthService.swift in Sources */,
-				A93EB3E02004EDE70093CEB0 /* FirstViewController.swift in Sources */,
+				A93EB3E02004EDE70093CEB0 /* SearchVC.swift in Sources */,
 				A93B2D042006506E0036EC17 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

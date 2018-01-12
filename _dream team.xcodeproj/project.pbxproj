@@ -17,6 +17,10 @@
 		A93EB3E72004EDE70093CEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3E62004EDE70093CEB0 /* Assets.xcassets */; };
 		A93EB3EA2004EDE70093CEB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3E82004EDE70093CEB0 /* LaunchScreen.storyboard */; };
 		A93EB3F7200518260093CEB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A93EB3F6200518260093CEB0 /* GoogleService-Info.plist */; };
+		A9F6F1DD2008CD6500BE4ADB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6F1DC2008CD6500BE4ADB /* AuthVC.swift */; };
+		A9F6F1DF2008CDE000BE4ADB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6F1DE2008CDE000BE4ADB /* LoginVC.swift */; };
+		A9F6F1E12008CF1E00BE4ADB /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6F1E02008CF1E00BE4ADB /* InsetTextField.swift */; };
+		A9F6F1E32008D2FC00BE4ADB /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6F1E22008D2FC00BE4ADB /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		A93EB3E92004EDE70093CEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A93EB3EB2004EDE70093CEB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A93EB3F6200518260093CEB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9F6F1DC2008CD6500BE4ADB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		A9F6F1DE2008CDE000BE4ADB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A9F6F1E02008CF1E00BE4ADB /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		A9F6F1E22008D2FC00BE4ADB /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,8 @@
 			children = (
 				A93EB3E12004EDE70093CEB0 /* SecondViewController.swift */,
 				A93EB3DF2004EDE70093CEB0 /* FirstViewController.swift */,
+				A9F6F1DC2008CD6500BE4ADB /* AuthVC.swift */,
+				A9F6F1DE2008CDE000BE4ADB /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +124,8 @@
 		A93EB3F22004F2540093CEB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9F6F1E02008CF1E00BE4ADB /* InsetTextField.swift */,
+				A9F6F1E22008D2FC00BE4ADB /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F6F1E32008D2FC00BE4ADB /* ShadowView.swift in Sources */,
+				A9F6F1DD2008CD6500BE4ADB /* AuthVC.swift in Sources */,
 				A93EB3E22004EDE70093CEB0 /* SecondViewController.swift in Sources */,
+				A9F6F1DF2008CDE000BE4ADB /* LoginVC.swift in Sources */,
+				A9F6F1E12008CF1E00BE4ADB /* InsetTextField.swift in Sources */,
 				A93B2D07200675B10036EC17 /* Colors.swift in Sources */,
 				A93EB3DE2004EDE70093CEB0 /* AppDelegate.swift in Sources */,
 				A93EB3E02004EDE70093CEB0 /* FirstViewController.swift in Sources */,

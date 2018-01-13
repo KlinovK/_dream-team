@@ -11,3 +11,5 @@ import Foundation
 var backgroundColor = "58BA9F"
 
 var uiViewlogin = "4CA7B2"
+
+var tableBackground = "006C5B"
